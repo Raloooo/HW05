@@ -18,9 +18,6 @@ for line in lines:
 
 d2 = dict(sorted(dic.items(), key=lambda x: x[1], reverse=True))
 
-##for i in range (n):
-	##print(d2[i][0], [], d2[i][1])
-
 for key,value in d2.items():
 	print(key, value)
 	
