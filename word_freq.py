@@ -16,4 +16,5 @@ for line in lines:
 	for name in real_new_line:
 		dic[name] = dic.get(name,0) + 1
 
-file.close()
+d2 = dict(sorted(dic.items(), key=lambda x: x[1], reverse=True))
+
