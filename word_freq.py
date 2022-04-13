@@ -16,4 +16,4 @@ for line in lines:
 	for name in real_new_line:
 		dic[name] = dic.get(name,0) + 1
 
-print(dic)
+reversedic = sorted(dic.items(), reverse = True, key=lambda a:a[1])
