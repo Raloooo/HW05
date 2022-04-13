@@ -23,6 +23,14 @@ d2 = dict(sorted(dic.items(), key=lambda x: x[1], reverse=True))
 
 for key,value in d2.items():
 	print(key, value)
+	
+	c += 1
+	if(c==n):
+		break
+	
+
+
+file.close()
 
 
 
